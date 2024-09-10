@@ -40,7 +40,13 @@ public class App {
 
     // Mínimo de dos números
     public static int min(int a, int b) {
-        return 3;
+        int m;
+        if (a < b) {
+            m = a;
+        } else {
+            m = b;
+        }
+        return m;
     }
 
     // Factorial de un número

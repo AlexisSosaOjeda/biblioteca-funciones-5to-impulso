@@ -156,6 +156,7 @@ public class App {
 
     // Ordenar un array
     public static void ordenarArray(int[] array) {
+        Arrays.sort(array);
     }
 
     // Buscar un elemento en un array

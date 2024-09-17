@@ -187,7 +187,13 @@ public class App {
 
     // Encontrar la mediana de un array
     public static double medianaArray(int[] array) {
-        ordenarArray(array);
+        Arrays.sort(array);
+        int n = array.length;
+        if (n % 2 == 0) {
+            return (array[n / 2 - 1] + array[n / 2]) / 2.0;
+        } else {
+            return array[n / 2];
+        }
     }
 
     // Calcular la desviación estándar de un array

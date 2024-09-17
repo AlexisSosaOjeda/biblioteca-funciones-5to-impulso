@@ -125,7 +125,11 @@ public class App {
 
     // Sumar elementos de un array
     public static int sumarArray(int[] array) {
-        return 7;
+        int suma = 0;
+        for (int i = 0; i < array.length; i++) {
+            suma += array[i];
+        }
+        return suma;
     }
 
     // Encontrar el máximo en un array

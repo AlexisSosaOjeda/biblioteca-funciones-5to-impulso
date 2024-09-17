@@ -198,6 +198,12 @@ public class App {
 
     // Calcular la desviación estándar de un array
     public static double desviacionEstandarArray(int[] array) {
+        double media = mediaArray(array);
+        double sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += Math.pow(array[i] - media, 2);
+        }
+        return Math.sqrt(sum / array.length);
     }
 
     // Generar un array de números aleatorios

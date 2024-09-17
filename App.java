@@ -65,7 +65,11 @@ public class App {
 
     // Número impar
     public static boolean esImpar(int n) {
-        return false;
+        if (n % 2 != 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     // Potencia de un número

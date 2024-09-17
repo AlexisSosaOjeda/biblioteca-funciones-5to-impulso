@@ -134,8 +134,13 @@ public class App {
 
     // Encontrar el máximo en un array
     public static int maxArray(int[] array) {
-      
-        return 3;
+        int max = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
+            }
+        }
+        return max;
     }
 
     // Encontrar el mínimo en un array

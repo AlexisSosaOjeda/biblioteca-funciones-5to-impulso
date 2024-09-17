@@ -79,7 +79,7 @@ public class App {
 
     // Raíz cuadrada de un número
     public static double raizCuadrada(double n) {
-        return Math.sqrt(3);
+        return Math.sqrt(n);
     }
 
     // Longitud de una cadena

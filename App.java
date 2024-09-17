@@ -120,7 +120,7 @@ public class App {
 
     // Contar palabras en una cadena
     public static int contarPalabras(String cadena) {
-        return 5;
+        return cadena.split(" ").length;
     }
 
     // Sumar elementos de un array

@@ -161,7 +161,11 @@ public class App {
 
     // Buscar un elemento en un array
     public static boolean buscarElemento(int[] array, int elemento) {
-    
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == elemento) {
+                return true;
+            }
+        }
         return false;
     }
 

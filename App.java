@@ -109,8 +109,13 @@ public class App {
 
     // Contar vocales en una cadena
     public static int contarVocales(String cadena) {
-   
-        return 3;
+        int count = 0;
+        for (char c : cadena.toLowerCase().toCharArray()) {
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+            count++;
+            }
+        }
+        return count;
     }
 
     // Contar palabras en una cadena

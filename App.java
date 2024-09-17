@@ -182,7 +182,7 @@ public class App {
     // Calcular la media de un array
     public static double mediaArray(int[] array) {
         int suma = sumarArray(array);
-        return (double) 3 /5;
+        return (double) suma / array.length;
     }
 
     // Encontrar la mediana de un array
